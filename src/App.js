@@ -1,25 +1,11 @@
 import React, { Component } from "react";
+import { Header } from "./components/Header.jsx";
+import { Footer } from "./components/Footer.jsx";
+import { Links } from "./components/Links.jsx";
+import { Main } from "./components/Main.jsx";
 
 class App extends Component {
-  state = { count: 1 };
-
-  increment = () => {
-    this.setState({ count: this.state.count + 1 });
-  };
-
-  decrement = () => {
-    this.setState({ count: this.state.count - 1 });
-  };
-
-  render() {
-    return (
-      <div>
-        <p>{this.state.count}</p>
-        <button onClick={this.increment}>+</button>
-        <button onClick={this.decrement}>-</button>
-      </div>
-    );
-  }
+  render() {}
 }
 
 export default App;
