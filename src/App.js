@@ -14,30 +14,46 @@
 // export default App;
 
 //EXAMPLE 2 - REACT COUNTER
+// import React, { Component } from "react";
+
+// class App extends Component {
+//   //state holds data
+//   state = { count: 1 };
+
+//   //declare functions - e.g. using setState function
+//   increment = () => {
+//     this.setState({ count: this.state.count + 1 });
+//   };
+//   decrement = () => {
+//     this.setState({ count: this.state.count - 1 });
+//   };
+
+//   //this.state.count connects to state
+//   render() {
+//     return (
+//       <div>
+//         <p>{this.state.count}</p>
+//         <button onClick={this.increment}>+</button>
+//         <button onClick={this.decrement}>-</button>
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
+
+// EXAMPLE 3
 import React, { Component } from "react";
 
 class App extends Component {
-  //state holds data
-  state = { count: 1 };
-
-  //declare functions - e.g. using setState function
-  increment = () => {
-    this.setState({ count: this.state.count + 1 });
-  };
-  decrement = () => {
-    this.setState({ count: this.state.count - 1 });
-  };
-
-  //this.state.count connects to state
   render() {
     return (
       <div>
-        <p>{this.state.count}</p>
-        <button onClick={this.increment}>+</button>
-        <button onClick={this.decrement}>-</button>
+        <Header />
       </div>
     );
   }
 }
-
-export default App;
+<div>
+  <Header />
+</div>;
