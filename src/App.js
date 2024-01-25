@@ -42,18 +42,25 @@
 
 // export default App;
 
-// EXAMPLE 3
+// EXAMPLE 3 - 1.44
+
 import React, { Component } from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
+
+//compononents allow reusability i.e. can use header / footer across pages
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header></Header>
+        <Footer></Footer>
+        <Main></Main>
       </div>
     );
   }
 }
-<div>
-  <Header />
-</div>;
+
+export default App;

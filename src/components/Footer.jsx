@@ -12,3 +12,5 @@ class Footer extends Component {
 <footer>
   <small>Copyright 2024 CH16</small>
 </footer>;
+
+export default Footer;

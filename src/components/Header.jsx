@@ -5,9 +5,9 @@ class Header extends Component {
     return (
       <header>
         <nav>
-          <a>Home</a>
+          {/* <a>Home</a>
           <a>About</a>
-          <a>Products</a>
+          <a>Products</a> */}
         </nav>
       </header>
     );
